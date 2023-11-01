@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+client/node_modules/
+manage/node_modules/
+server/vendor/
+
+# Build output
+dist/
+client/dist/
+manage/dist/
+
+# Runtime and cache
+server/runtime/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local environment
+.env
+.env.local
+.env.*.local
+server/.env
+
+# Editors and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Office temporary files
+~$*

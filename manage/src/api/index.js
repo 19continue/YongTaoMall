@@ -1,0 +1,23 @@
+import { get, post } from "./MyAxios";
+
+export const baseURL = "http://localhost/public/index.php/manage";
+export const login = (params) => post('Admin/login', params);
+export const getMenu = (params) => post('Admin/getMenu', params);
+export const selectAdminById = (params) => post('Admin/selectById', params);
+export const getAllAdmin = () => get('Admin/getAll');
+export const selectButton = (params) => post('Admin/buttonStatus', params);
+export const addAdmin = (params) => post('Admin/addAdmin', params);
+export const deleteAdminById = (params) => post('Admin/deleteById', params);
+export const saveAdminById = (params) => post('Admin/updateAdmin', params);
+export const getAllGroup = () => get('group/getAll');
+export const getGroup = () => get('group/getGroup');
+export const getMenuIdArray = (params) => post('group/getMenuById', params);
+export const getLevelAllMenu = () => get('menu/levelGetAll');
+export const addGroup = (params) => post('group/addGroup', params);
+export const addAuthority = (params) => post('authority/saveAll', params);
+export const getAuthorityByGroupId = (params) => post('authority/getByGroupId', params);
+export const deleteGroup = (params) => post('group/deleteGroup', params);
+export const saveGroup = (params) => post('group/saveGroup', params);
+export const getAllGoods = (params) => post('goods/getAll', params);
+export const insertGoods = (params) => post('goods/insert', params);
+export const uploadSku = (params) => post('goods/uploadSku', params);
