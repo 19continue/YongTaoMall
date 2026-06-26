@@ -2,6 +2,13 @@
 
 YongTaoMall 是一个基于 Vue 2 和 ThinkPHP 6 的商城项目，包含用户端、后台管理端、后端接口服务和数据库初始化脚本。
 
+## 项目预览
+
+![Screenshot 1](1.gif)
+![Screenshot 2](2.gif)
+![Screenshot 3](3.gif)
+![Screenshot 4](4.gif)
+
 ## 项目结构
 
 ```text
